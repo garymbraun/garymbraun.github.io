@@ -1,0 +1,45 @@
+* { 
+	padding: 3px;
+	margin: 0px;
+}
+body {
+	background-color: #CFCFCF;
+	text-align: center;
+	font-family: Helvetica, Arial;
+	color: #222222;
+	font-weight: bold;
+}
+h1 {font-weight: bold;
+	font-size: 36px;
+	color: #E07B2F;
+}
+
+nav {
+	font-weight: lighter;
+}
+
+h4 {
+	font-weight: bold;
+	text-align: center;
+}
+
+p {
+	font-weight: lighter; 
+}
+
+img {
+	width:  100%;
+}
+
+ul {
+	text-align: center;
+	align-content: center;
+	font-weight: lighter;
+	list-style-type: none;
+}
+footer {
+	background-color: #E07B2F;
+	padding: 5px;
+	text-align: center;
+	width: 100%;
+}
