@@ -6,6 +6,12 @@
 	margin: 0px;
 }
 
+header {
+	background-color: #FFED74;
+	border: 1px solid black;
+	padding: 20px;
+}
+
 body {
 	background-color: #CFCFCF;
 	text-align: center;
@@ -24,7 +30,12 @@ h1 {font-weight: bolder;
 	letter-spacing: 20px;
 }
 
- 
+nav{
+	background-color: #E8C66A;
+	border: 1px solid black;
+	padding: 20px;
+}
+
 nav a {
 	font-weight: lighter;
 	margin-right: 18px;
@@ -62,6 +73,12 @@ img {
 	width:  100%;
 }
 
+section {
+	background-color: #FFE2B8;
+	border: 1px solid black;
+	padding: 20px;
+}
+
 .guidence {
 	max-width: 50em;
 	margin: 2em auto;
@@ -92,10 +109,13 @@ hr {
 }
 
 footer {
-	background-color: #E07B2F;
+/*	background-color: #E07B2F;
 	padding: 1px;
 	text-align: center;
-	width: 100%;
+	width: 100%;*/
+	background-color: #FFE2B8;
+	border: 1px solid black;
+	padding: 20px;
 }
 
 footer a {
