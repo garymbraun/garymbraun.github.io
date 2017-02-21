@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre);
 
 * { 
-	padding: 2px;
+	padding: 1px;
 	margin: 0px;
 }
 
@@ -62,12 +62,19 @@ img {
 	width:  100%;
 }
 
-ul {
+.guidence {
+	max-width: 50em;
+	margin: 2em auto;
+	background-color: #DDD;
+}
+
+ul li{
 	text-align: center;
 	align-content: center;
 	font-weight: lighter;
 	list-style-type: none;
 	color: blue;
+	padding: 10px;
 }
 
 .projects {
@@ -94,7 +101,7 @@ footer {
 footer a {
 	text-decoration: none;
 }
+
 footer p {
-	margin:0;
-	
+	margin:0;	
 }
