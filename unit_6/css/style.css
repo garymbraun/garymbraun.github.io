@@ -6,17 +6,16 @@
 	margin: 0px;
 }
 
-header {
+/*header {
 	background-color: #FFED74;
 	border: 1px solid black;
 	padding: 20px;
-}
+}*/
 
 body {
 	background-color: #CFCFCF;
 	text-align: center;
 	font-family: 'Averia Serif Libre', cursive;
-/*	font-family: Helvetica, Arial;*/
 	color: #222222;
 	font-weight: bold;
 }
@@ -27,34 +26,34 @@ h1 {font-weight: bolder;
 	text-align: center;
 	color: #E07B2F;
 	padding: 10px;
-	letter-spacing: 20px;
+	letter-spacing: 23px;
 }
 
-nav{
+/*nav{
 	background-color: #E8C66A;
 	border: 1px solid black;
 	padding: 20px;
 	
-}
+}*/
 
 nav a {
 	font-weight: lighter;
 	margin-right: 18px;
 	margin-left: 18px;
 	text-decoration: none;
-	color: red;
-	padding: 20px;
+	color: blue;
+	padding: 5px;
 }
 
 nav a:hover {
 	color: black;
-	background-color: red;
+	background-color: #E07B2F;
 }
 
 h2{
 	font-size: 20px;
 	margin: 10px;
-
+	padding: 1.50em;
 }
 
 h3 {
@@ -80,31 +79,77 @@ img {
 	width:  100%;
 }
 
-section {
+#two_column {
+	background-color: #DDD;
+	border: 1px black solid;
+	/*padding: 20px;
+	width: 80%;
+	margin: auto;*/
+	max-width: 30em;
+	margin: 2em auto;
+}
+
+#left {
+	background-color: #CCC;
+	border: 1px black solid;
+	padding: 0 20px;
+	float: left;
+	width: 39%;
+	margin: 5px;
+}
+
+#right {
+	background-color: #CCC;
+	border: 1px black solid;
+	padding: 1px 20px;
+	text-align: left;
+	float: right;
+	width: 39%;
+	margin: 5px;	
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+/*section {
 	background-color: #FFE2B8;
 	border: 1px solid black;
 	padding: 20px;
-}
-
-.guidance {
-	max-width: 50em;
-	margin: 2em auto;
-	background-color: #DDD;
-}
+}*/
 
 ul li{
-	text-align: center;
-	align-content: center;
+	text-align: left;
+	/*align-content: center;*/
 	font-weight: lighter;
 	list-style-type: none;
-	color: blue;
-	padding: 10px;
+/*	color: #DDD;*/
+	padding: 9px;
+}
+
+span1 {
+	border-bottom: 4px green solid;
+	padding: 1px;
+}
+
+span2 {
+	border-bottom: 4px yellow solid;
+	padding: 1px;
+}
+
+span3 {
+	border-bottom: 4px red solid;
+	padding: 1px;
 }
 
 .projects {
-	width: 30em;
+	max-width: 30em;
 	margin: 2em auto;
-/*	text-align: left;*/
 }
 
 hr {
@@ -115,14 +160,15 @@ hr {
 	width: 10em; 
 }
 
+
 footer {
-/*	background-color: #E07B2F;
+	background-color: #E07B2F;
 	padding: 1px;
 	text-align: center;
-	width: 100%;*/
-	background-color: #FFE2B8;
+	width: 100%;
+/*	background-color: #FFE2B8;
 	border: 1px solid black;
-	padding: 20px;
+	padding: 20px;*/
 }
 
 footer a {
