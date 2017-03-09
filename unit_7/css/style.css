@@ -37,6 +37,12 @@ nav a:hover {
 	background-color: #E07B2F;
 }
 
+#credo {
+	border: 1px black solid;
+	max-width: 100%;
+	margin-top: 1em;
+}
+
 h2{
 	font-size: 20px;
 	margin: 10px;
@@ -95,6 +101,20 @@ img {
 	margin: 5px;	
 }
 
+.wrapper-one {
+	/*background-color: purple;*/
+	width: 90%;
+	margin: auto;
+
+}
+
+.wrapper-two {
+	/*background-color: blue;*/
+	width: 90%;
+	margin: auto;
+
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -106,9 +126,8 @@ img {
 
 ul li{
 	text-align: left;
-/*	list-style: disc;*/
 	font-weight: lighter;
-	list-style-type: disc;
+	list-style-type: square;
 	padding: 9px 5px;
 	margin-left: 15px;
 }
@@ -118,29 +137,36 @@ ul li{
 	padding: 1px;
 }
 
-span2 {
+#span-two {
 	border-bottom: 4px yellow solid;
 	padding: 1px;
 }
 
-span3 {
+#span-three { 
 	border-bottom: 4px red solid;
 	padding: 1px;
 }
 
-.projects {
-	max-width: 30em;
-	margin: 2em auto;
+.projects-one {
+	width: 30%;
+	margin: 1.5%;
+	float: left;
+	/*background-color: orange;*/
 }
 
+.projects-two {
+	max-width: 30%;
+	margin: 1.5%;
+	float: left;
+	/*background-color: magenta;*/
+}
 hr {
 	border: none;
 	height: 2px;
 	background-color: #3C3C3C;
 	margin: 1em auto;
-	width: 10em; 
+	width: 35%; 
 }
-
 
 footer {
 	background-color: #E07B2F;
@@ -151,6 +177,11 @@ footer {
 
 footer a {
 	text-decoration: none;
+}
+footer a:hover {
+	color: white;
+	background-color: blue;
+	padding: 2px;
 }
 
 footer p {
