@@ -38,10 +38,13 @@ nav a:hover {
 	background-color: #E07B2F;
 }
 
+#mobile {
+	display: none;
+}
+
 #credo {
-	/*border: 1px black solid;*/
-	max-width: 100%;
-	margin: 1%;
+	max-width: 90%;
+	margin: auto;
 	background-image: url(../images/Skaftefel.jpg);
 	background-size: cover;
 	display: block;
@@ -52,7 +55,7 @@ nav a:hover {
 #credo p {
 	font-weight: lighter;
 	line-height: 1.4em;
-	margin: 5em auto;
+	margin-top: 6em;
 	color: white;
 	max-width: 50%
 
@@ -92,13 +95,10 @@ img {
 
 #two_column {
 	width: 90%;
-	margin: auto;
-	
+	margin: auto;	
 }
 
 #left {
-	background-color: #CCC;
-	border: 1px black solid;
 	padding: 0 4%;
 	float: left;
 	width: 39%;
@@ -106,24 +106,13 @@ img {
 }
 
 #right {
-/*	background-color: #CCC;
-	border: 1px black solid;*/
-	padding: 0 4%;
 	text-align: left;
 	float: right;
 	width: 39%;
-	margin: 1%;	
+	margin: 1% 10%;	
 }
 
-.wrapper-one {
-	/*background-color: purple;*/
-	width: 90%;
-	margin: auto;
-
-}
-
-.wrapper-two {
-	/*background-color: blue;*/
+#wrapper-one {
 	width: 90%;
 	margin: auto;
 
@@ -164,20 +153,17 @@ ul li{
 .projects-one {
 	width: 30%;
 	margin: 1.5%;
+	height: 657px;
 	float: left;
-	/*background-color: orange;*/
 }
 
-.projects-two {
-	width: 30%;
-	margin: 1.5%;
-	float: left;
-	/*background-color: magenta;*/
+#help-ht {
+	height: 550px;
 }
 
 hr {
 	border: none;
-	height: 2px;
+	height: 3px;
 	background-color: #3C3C3C;
 	margin: 1em auto;
 	width: 35%; 
@@ -204,29 +190,33 @@ footer p {
 	margin:0;	
 }
 
+@media screen and (max-width:1250px){
 
-@media screen and (max-width:1050px){
 	.projects-one {
 		width: 45%;
 		height: auto;
-		/*background-color: orange;*/
 		display: block;
-		}
-
-	#media-2col-one {
-		display: none;
+	}
+	.footer-one {
+		clear: both;
 	}
 
-	.projects-two {
+	footer {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width:1050px){
+
+	#credo p {
+		margin-top: 5em;
+	}
+
+	.projects-one {
 		width: 45%;
 		height: auto;
-		/*background-color: orange;*/
 		display: block;
-	}
-
-	#media-2col-two {
-		display: none;
-	}
+		}
 
 	.footer-one {
 		clear: both;
@@ -241,24 +231,23 @@ footer p {
 		h1 {
 		letter-spacing: .4em;
 		}
+
+		#credo p {
+		margin-top: 4em;
+	}
 }
 
 @media screen and (max-width:550px){
+	#credo p {
+		margin-top: 5em;
+	}
+
 	.projects-one {
 		width: 100%;
 		height: auto;
-		/*background-color: orange;*/
 		display: block;
 		float: none;
 		}
-
-	.projects-two {
-		width: 100%;
-		height: auto;
-		/*background-color: orange;*/
-		display: block;
-		float: none;
-	}
 
 	.footer-one {
 		clear: both;
@@ -271,8 +260,13 @@ footer p {
 
 @media screen and (max-width:420px){
 		h1 {
-		letter-spacing: .18em;
+		letter-spacing: .15em;
 		}
+
+		#credo p {
+		margin-top: 3em;
+		}
+
 		#right {
 			display: none;
 		}
@@ -280,11 +274,22 @@ footer p {
 		#left {
 			width: 100%
 		}
+		#mobile {
+			display: block;
+		}
+
+		nav:hover a {
+			display: block;
+		}
 
 		nav a {
+		display: none;
 		font-size: 16px;
+		width: auto;
 		margin: .1em auto;
-		padding: .1em .1em;
+		padding: .3em .1em;
+		float: none;
+
 		}
 }
 
